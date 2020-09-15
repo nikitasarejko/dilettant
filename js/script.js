@@ -30,7 +30,7 @@ gsap.to('#dilettantlogo', {
     }
 })
 
-gsap.to('.hero-copy p', {
+gsap.to('.hero-copy h1', {
     duration: 1,
     color: '#E5DCD3',
     opacity: 0,
