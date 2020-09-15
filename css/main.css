@@ -174,11 +174,11 @@ footer.footer div.footer__imprint p {
 @media screen and (max-width: 750px) {
 
     .color-overlay {
-        height: 80vh;
+        height: 66.667vh;
     }
     
     .hero {
-        height: 80vh;
+        height: 66.667vh;
     }
 
     svg.logo-large {
