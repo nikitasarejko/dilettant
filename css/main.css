@@ -177,6 +177,40 @@ footer.footer div.footer__imprint p {
     text-transform: uppercase;
 }
 
+footer.footer div.footer__imprint a {
+    text-decoration: none;
+    color: var(--dark-color);
+    border-bottom: 1px solid transparent;
+}
+
+footer.footer div.footer__imprint a:hover {
+    border-bottom: 1px solid var(--dark-color);
+}
+
+div.imprint-copy {
+    padding: 4vw;
+}
+
+div.imprint-copy p {
+    max-width: 80rem;
+    font-size: 1.4rem;
+}
+
+div.imprint-copy a {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--dark-color);
+    display: inline-block;
+    margin-bottom: 2.4rem;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom .2s ease-out;
+}
+
+div.imprint-copy a:hover {
+    border-bottom: 1px solid var(--dark-color);
+}
+
 @media screen and (max-width: 750px) {
 
     .color-overlay {
