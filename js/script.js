@@ -16,47 +16,47 @@ const runScripts = function () {
         }, 0)
         .from('.letter-1', {
             duration: 1,
-            y: '-12%',
+            y: '-16%',
             delay: 1
         }, 1)
         .from('.letter-2', {
             duration: 1,
-            y: '-12%',
+            y: '-16%',
             delay: 0.75
         }, 1)
         .from('.letter-3', {
             duration: 1,
-            y: '-12%',
+            y: '-16%',
             delay: 0.66
         }, 1)
         .from('.letter-4', {
             duration: 1,
-            y: '-12%',
+            y: '-16%',
             delay: 0.5
         }, 1)
         .from('.letter-5', {
             duration: 1,
-            y: '-12%',
+            y: '-16%',
             delay: 0.25
         }, 1)
         .from('.letter-6', {
             duration: 1,
-            y: '12%',
+            y: '16%',
             delay: 0.5
         }, 1)
         .from('.letter-7', {
             duration: 1,
-            y: '12%',
+            y: '16%',
             delay: 0.66
         }, 1)
         .from('.letter-8', {
             duration: 1,
-            y: '12%',
+            y: '16%',
             delay: 0.75
         }, 1)
         .from('.letter-9', {
             duration: 1,
-            y: '12%',
+            y: '16%',
             delay: 1
         }, 1)
         .to('.dilettantlogo', {

@@ -232,7 +232,108 @@ div.imprint-copy a:hover {
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 144rem) {
+
+    svg.logo-large {
+        padding: 4vw;
+        width: 92vw;
+    }
+
+    .hero-copy {
+        max-width: 80vw;
+        padding: 4vw;
+    }
+    
+    .hero-copy h1 {
+        font-size: 3.6rem;
+        line-height: 1.4;
+    }
+
+    .clients__grid {
+        width: 75vw;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 120px);
+        grid-gap: .8rem;
+    }
+
+    .clients__grid__cell img {
+        max-height: 6.4rem;
+    }
+
+    .clients__copy h2 {
+        font-size: 4rem;
+        line-height: 1.2;
+    }
+
+    footer.footer p.footer__text {
+        font-size: 2.1rem;
+    }
+
+    img.logo-small {
+        height: 1.4rem;
+    }
+
+}
+
+@media screen and (max-width: 102.4rem) {
+
+    .hero-copy {
+        max-width: 92vw;
+        padding: 4vw;
+    }
+    
+    .hero-copy h1 {
+        font-size: 2.7rem;
+        line-height: 1.45;
+    }
+
+    .clients__copy {
+        width: 33.333vw;
+        margin-right: 4vw;
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    
+    .clients__copy h2 {
+        font-size: 3.2rem;
+        line-height: 1.25;
+        margin-bottom: 1.6rem;
+    }
+    
+    .clients__copy p {
+        font-size: 1.4rem;
+        opacity: .8;
+    }
+    
+    .clients__grid {
+        width: 66.666vw;
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 90px);
+        grid-gap: .8rem;
+    }
+    
+    .clients__grid__cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--light-grey);
+        overflow: hidden;
+    }
+    
+    .clients__grid__cell img {
+        max-height: 6.4rem;
+        width: auto;
+        transform: scale(1) translateY(200px);
+        filter: grayscale(1);
+    }
+
+}
+
+@media screen and (max-width: 375px) {
 
     .color-overlay {
         height: 100vh;
@@ -243,13 +344,14 @@ div.imprint-copy a:hover {
     }
 
     svg.logo-large {
-        width: 100vw;
+        width: 92vw;
+        padding: 4vw;
     }
 
     .hero-copy h1 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         line-height: 1.45;
-        max-width: 80vw;
+        max-width: 92vw;
     }
 
     .clients {
@@ -262,7 +364,7 @@ div.imprint-copy a:hover {
         margin: 4vw;
     }
     
-    .clients__copy h1 {
+    .clients__copy h2 {
         font-size: 2.1rem;
         line-height: 1.25;
         margin-bottom: .8rem;
