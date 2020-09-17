@@ -91,7 +91,7 @@ const runScripts = function () {
     gsap.to('#dilettantlogo', {
         duration: 1,
         scale: 0.8,
-        y: '-50vh',
+        y: '-25vh',
         ease: Power4.easeOut,
         scrollTrigger: {
             trigger: '#dilettantlogo',
@@ -107,8 +107,8 @@ const runScripts = function () {
         opacity: 0,
         y: '50%',
         scrollTrigger: {
-            trigger: '.hero-copy',
-            start: 'center center',
+            trigger: '#dilettantlogo',
+            start: 'top 20%',
             scrub: 1,
             toggleActions: 'play play reverse reverse'
         }

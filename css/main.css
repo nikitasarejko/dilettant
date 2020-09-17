@@ -32,7 +32,7 @@ svg.logo-large {
 }
 
 img.logo-small {
-    height: 1.4rem;
+    height: 1.8rem;
 }
 
 .color-overlay {
@@ -99,8 +99,8 @@ img.logo-small {
     width: 75vw;
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 120px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 180px);
     grid-gap: .8rem;
 }
 
@@ -113,7 +113,7 @@ img.logo-small {
 }
 
 .clients__grid__cell img {
-    max-height: 6.4rem;
+    max-height: 8rem;
     width: auto;
     transform: scale(1) translateY(200px);
     filter: grayscale(1);
@@ -209,6 +209,27 @@ div.imprint-copy a {
 
 div.imprint-copy a:hover {
     border-bottom: 1px solid var(--dark-color);
+}
+
+/* BREAKPOINTS */
+
+@media screen and (max-width: 192rem) {
+
+    svg.logo-large {
+        padding: 0;
+        width: 66.667vw;
+    }
+
+    .hero-copy {
+        max-width: 66.667vw;
+        padding: 0;
+    }
+    
+    .hero-copy h1 {
+        font-size: 4rem;
+        line-height: 1.375;
+    }
+
 }
 
 @media screen and (max-width: 750px) {
