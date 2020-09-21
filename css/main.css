@@ -189,6 +189,8 @@ footer.footer div.footer__imprint a:hover {
 
 div.imprint-copy {
     padding: 4vw;
+    opacity: 0;
+    transform: translateY(200px);
 }
 
 div.imprint-copy p {
@@ -333,9 +335,7 @@ div.imprint-copy a:hover {
 
 }
 
-@media
-    screen and (-webkit-min-device-pixel-ratio: 2), 
-    screen and (max-width: 750px) {
+@media only screen and (max-width: 48rem) and (-webkit-device-pixel-ratio: 2) {
 
     .color-overlay {
         height: 100vh;
@@ -363,7 +363,7 @@ div.imprint-copy a:hover {
 
     .clients__copy {
         width: 92vw;
-        margin: 4vw;
+        margin: 4vw 0;
     }
     
     .clients__copy h2 {

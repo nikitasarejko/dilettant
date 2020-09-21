@@ -76,14 +76,10 @@ const runScripts = function () {
         const imprintTimeline = gsap.timeline()
 
         imprintTimeline
-            .set('.imprint-copy', {
-                opacity: 0,
-                y: '200px'
-            })
-            .from('.imprint-copy', {
+            .to('div.imprint-copy', {
                 duration: 1,
-                opacity: 0,
-                y: '200px',
+                opacity: 1,
+                y: '0',
                 delay: 0.5,
                 ease: Power4.easeOut
             })
