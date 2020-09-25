@@ -19,7 +19,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    cursor: url('/img/circle-cursor.svg'), auto;
+    cursor: url('/img/circle-cursor.svg') 8 8, auto;
 }
 
 svg.logo-large {
@@ -54,6 +54,37 @@ img.logo-small {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+}
+
+.hero-language {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    padding: 1vw;
+}
+
+.hero-language__switch {
+    font-size: 1.4rem;
+    color: var(--dark-color);
+    padding-left: .4rem;
+}
+
+.hero-language__switch a {
+    text-decoration: none;
+    color: var(--dark-color);
+    opacity: .4;
+    transition: all .25s ease-out;
+}
+
+.hero-language__switch a:hover {
+    cursor: url('/img/circle-cursor-hover.svg') 12 12, auto;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.hero-language__switch.active a {
+    opacity: 1;
 }
 
 .hero-copy {
@@ -158,7 +189,7 @@ footer.footer div.footer__column a {
 }
 
 footer.footer div.footer__column a:hover {
-    cursor: url('/img/circle-cursor-hover.svg'), auto;
+    cursor: url('/img/circle-cursor-hover.svg') 12 12, auto;
     border-bottom: 1px solid var(--dark-color);
     transition: all .2s ease-out;
 }
