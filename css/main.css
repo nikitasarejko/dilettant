@@ -366,7 +366,7 @@ div.imprint-copy a:hover {
 
 }
 
-@media only screen and (max-width: 48rem) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 37.5rem) and (-webkit-device-pixel-ratio: 2) {
 
     .color-overlay {
         height: 100vh;
@@ -374,6 +374,10 @@ div.imprint-copy a:hover {
     
     .hero {
         height: 75vh;
+    }
+
+    .hero-language {
+        padding: 4vw;
     }
 
     svg.logo-large {
