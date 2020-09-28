@@ -59,6 +59,10 @@ const runScripts = function () {
             y: '25%',
             delay: 1
         }, 1)
+        .from('.hero-language', {
+            opacity: 0,
+            y: '-20px'
+        })
         .to('.dilettantlogo', {
             duration: 1.5,
             opacity: 0.075,
